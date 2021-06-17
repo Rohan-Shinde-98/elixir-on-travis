@@ -1,5 +1,10 @@
 arch:
   - ppc64le
-  - amd64
+#   - amd64
 os: linux
 language: elixir
+elixir:
+  - 1.2
+otp_release:
+  - 18.0
+sudo: false
