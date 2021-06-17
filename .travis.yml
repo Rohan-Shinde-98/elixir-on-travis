@@ -5,6 +5,6 @@ os: linux
 dist: bionic
 language: elixir
 elixir:
-  - latest
+  - '1.12.1'
 # otp_release:
 #   - $TRAVIS_OTP_RELEASE
