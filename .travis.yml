@@ -1,10 +1,6 @@
 arch:
-#   - amd64
   - ppc64le
 os: linux
-dist: bionic
 language: elixir
-elixir:
-  - '1.12.1'
-# otp_release:
-#   - $TRAVIS_OTP_RELEASE
+otp_release:
+  - '20.3'
