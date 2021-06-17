@@ -2,6 +2,7 @@ arch:
   - ppc64le
 os: linux
 language: elixir
-elixir: 'latest'
+erlang: 20.3
+# elixir: 'latest'
 otp_release:
   - '20.3'
